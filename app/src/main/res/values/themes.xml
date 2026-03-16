@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ==================== DARK THEMES ==================== -->
+
+    <!-- Swamp (Black) — default -->
+    <style name="Theme.EDHDrinkTurn" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6200ea</item>
+        <item name="colorPrimaryVariant">#3700b3</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#03dac6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#1a1a2e</item>
+        <item name="android:navigationBarColor">#1a1a2e</item>
+        <item name="android:windowBackground">#1a1a2e</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorSecondary">#B0FFFFFF</item>
+        <item name="android:textColorHint">#80FFFFFF</item>
+    </style>
+
+    <!-- Plains (White) — dark gold -->
+    <style name="Theme.EDHDrinkTurn.Plains">
+        <item name="colorPrimary">#c9a84c</item>
+        <item name="colorPrimaryVariant">#a08030</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">#e8d5a3</item>
+        <item name="colorSecondaryVariant">#c9a84c</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#2e2a1a</item>
+        <item name="android:navigationBarColor">#2e2a1a</item>
+        <item name="android:windowBackground">#2e2a1a</item>
+    </style>
+
+    <!-- Island (Blue) — dark -->
+    <style name="Theme.EDHDrinkTurn.Island">
+        <item name="colorPrimary">#1565c0</item>
+        <item name="colorPrimaryVariant">#0d47a1</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#42a5f5</item>
+        <item name="colorSecondaryVariant">#1e88e5</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#0a1628</item>
+        <item name="android:navigationBarColor">#0a1628</item>
+        <item name="android:windowBackground">#0a1628</item>
+    </style>
+
+    <!-- Mountain (Red) — dark -->
+    <style name="Theme.EDHDrinkTurn.Mountain">
+        <item name="colorPrimary">#c62828</item>
+        <item name="colorPrimaryVariant">#b71c1c</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#ef5350</item>
+        <item name="colorSecondaryVariant">#e53935</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">#2e1a1a</item>
+        <item name="android:navigationBarColor">#2e1a1a</item>
+        <item name="android:windowBackground">#2e1a1a</item>
+    </style>
+
+    <!-- Forest (Green) — dark -->
+    <style name="Theme.EDHDrinkTurn.Forest">
+        <item name="colorPrimary">#2e7d32</item>
+        <item name="colorPrimaryVariant">#1b5e20</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#66bb6a</item>
+        <item name="colorSecondaryVariant">#43a047</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#1a2e1a</item>
+        <item name="android:navigationBarColor">#1a2e1a</item>
+        <item name="android:windowBackground">#1a2e1a</item>
+    </style>
+
+    <!-- ==================== LIGHT THEMES ==================== -->
+
+    <!-- Swamp Light (Black) -->
+    <style name="Theme.EDHDrinkTurn.SwampLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6200ea</item>
+        <item name="colorPrimaryVariant">#3700b3</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#03dac6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#d1c4e9</item>
+        <item name="android:navigationBarColor">#ede7f6</item>
+        <item name="android:windowBackground">#ede7f6</item>
+        <item name="android:textColorPrimary">#FF212121</item>
+        <item name="android:textColorSecondary">#FF757575</item>
+        <item name="android:textColorHint">#FF9E9E9E</item>
+    </style>
+
+    <!-- Plains Light (White) — light gold -->
+    <style name="Theme.EDHDrinkTurn.PlainsLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#8b7025</item>
+        <item name="colorPrimaryVariant">#6d5719</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#c9a84c</item>
+        <item name="colorSecondaryVariant">#a08030</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#e8dcc0</item>
+        <item name="android:navigationBarColor">#f5f0e0</item>
+        <item name="android:windowBackground">#f5f0e0</item>
+        <item name="android:textColorPrimary">#FF212121</item>
+        <item name="android:textColorSecondary">#FF757575</item>
+        <item name="android:textColorHint">#FF9E9E9E</item>
+    </style>
+
+    <!-- Island Light (Blue) -->
+    <style name="Theme.EDHDrinkTurn.IslandLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1565c0</item>
+        <item name="colorPrimaryVariant">#0d47a1</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#42a5f5</item>
+        <item name="colorSecondaryVariant">#1e88e5</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#bbdefb</item>
+        <item name="android:navigationBarColor">#e3f2fd</item>
+        <item name="android:windowBackground">#e3f2fd</item>
+        <item name="android:textColorPrimary">#FF212121</item>
+        <item name="android:textColorSecondary">#FF757575</item>
+        <item name="android:textColorHint">#FF9E9E9E</item>
+    </style>
+
+    <!-- Mountain Light (Red) -->
+    <style name="Theme.EDHDrinkTurn.MountainLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#c62828</item>
+        <item name="colorPrimaryVariant">#b71c1c</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#ef5350</item>
+        <item name="colorSecondaryVariant">#e53935</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">#ffcdd2</item>
+        <item name="android:navigationBarColor">#ffebee</item>
+        <item name="android:windowBackground">#ffebee</item>
+        <item name="android:textColorPrimary">#FF212121</item>
+        <item name="android:textColorSecondary">#FF757575</item>
+        <item name="android:textColorHint">#FF9E9E9E</item>
+    </style>
+
+    <!-- Forest Light (Green) -->
+    <style name="Theme.EDHDrinkTurn.ForestLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#2e7d32</item>
+        <item name="colorPrimaryVariant">#1b5e20</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#66bb6a</item>
+        <item name="colorSecondaryVariant">#43a047</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">#c8e6c9</item>
+        <item name="android:navigationBarColor">#e8f5e9</item>
+        <item name="android:windowBackground">#e8f5e9</item>
+        <item name="android:textColorPrimary">#FF212121</item>
+        <item name="android:textColorSecondary">#FF757575</item>
+        <item name="android:textColorHint">#FF9E9E9E</item>
+    </style>
+
+</resources>

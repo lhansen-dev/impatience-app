@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textSize="32sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Color Theme -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_theme_label"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Dark row -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/theme_dark"
+            android:textSize="13sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginBottom="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="12dp">
+
+            <View
+                android:id="@+id/themePlains"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeIsland"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeSwamp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeMountain"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeForest"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+        </LinearLayout>
+
+        <!-- Light row -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/theme_light"
+            android:textSize="13sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginBottom="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="32dp">
+
+            <View
+                android:id="@+id/themePlainsLight"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeIslandLight"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeSwampLight"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeMountainLight"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+            <View
+                android:id="@+id/themeForestLight"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp" />
+
+        </LinearLayout>
+
+        <!-- Timer Interval -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timer_interval_label"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTimerInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textColorHint="?android:attr/textColorHint"
+            android:hint="60"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="32dp"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+        <!-- Notification Sound -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_sound_label"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radioTtsDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound_tts_drink"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="18sp"
+                android:buttonTint="?attr/colorPrimary"
+                android:padding="8dp"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound_alarm"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="18sp"
+                android:buttonTint="?attr/colorPrimary"
+                android:padding="8dp" />
+
+            <RadioButton
+                android:id="@+id/radioCustomTts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound_custom_tts"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="18sp"
+                android:buttonTint="?attr/colorPrimary"
+                android:padding="8dp" />
+
+        </RadioGroup>
+
+        <!-- Custom TTS text (visible only when Custom TTS selected) -->
+        <EditText
+            android:id="@+id/editCustomTts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textColorHint="?android:attr/textColorHint"
+            android:hint="@string/custom_tts_hint"
+            android:background="@drawable/edit_text_bg"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+    </LinearLayout>
+
+</ScrollView>
