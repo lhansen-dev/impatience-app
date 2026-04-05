@@ -1,4 +1,6 @@
-# Impatience
+# Impatience App - Turn Timer
+
+<img width="672" height="936" alt="image" src="https://github.com/user-attachments/assets/518bae71-7753-4e61-a4c9-22809b0592c8" />
 
 A drink reminder timer for EDH (Commander) Magic: The Gathering games. Nudges you to take a sip every time your turn runs long.
 
