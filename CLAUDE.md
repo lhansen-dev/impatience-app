@@ -27,6 +27,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ./gradlew clean
 ```
 
+## Release Process
+
+```bash
+# Build signed release APK
+./gradlew assembleRelease
+
+# Upload to a new GitHub release (use full semver tags, e.g. v1.0.0)
+gh release create v1.0.0 app/build/outputs/apk/release/app-release.apk --title "v1.0.0" --notes "Release notes here"
+
+# Replace the APK on an existing release
+gh release delete-asset v1.0.0 app-release.apk --yes
+gh release upload v1.0.0 app/build/outputs/apk/release/app-release.apk
+```
+
+Release signing is configured in `app/build.gradle.kts` using `app/release-keystore.jks` (gitignored). The keystore alias and password are both `impatience`.
+
 ## Architecture
 
 Single-module Android app (`app/`) with two activities:
