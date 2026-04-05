@@ -4,8 +4,7 @@
 
 A drink reminder timer for EDH (Commander) Magic: The Gathering games. Nudges you to take a sip every time your turn runs long.
 
-## Download
-- [v1.0.0](https://github.com/h0gballs/impatience-app/releases/download/v1.0.0/app-release-unsigned.apk)
+Download  [here](https://github.com/h0gballs/impatience-app/releases).
 
 ## Features
 
